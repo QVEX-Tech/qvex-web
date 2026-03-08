@@ -1,1 +1,250 @@
+<!DOCTYPE html>
 
+<html lang="en">
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127741238-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-127741238-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QVEX Tech - Nextgen electronics</title>
+    <meta name="description" content="Developers of next-gen products and electronics.">
+    <meta name="keywords" content="electronic products, led light controller, keypad, keyboard, product design, diy electronics, technology, tech, tech gadgets, gadgets, developing">
+
+    <meta property="og:title" content="QVEX Tech: next-gen electronics">
+    <meta property="og:description" content="Using the newest technology to develop nextgen level electronics and gadgets.">
+    <meta property="og:image" content="https://qvex.eu/img/lynepad_wide.jpg">
+    <meta property="og:url" content="https://qvex.eu">
+
+    <meta name="twitter:title" content="QVEX Tech">
+    <meta name="twitter:description" content="Using the newest technology to develop nextgen level electronics and gadgets">
+    <meta name="twitter:url" content="https://qvex.eu/img/lynepad_wide.jpg">
+    <meta name="twitter:card" content="next-gen gadgets & electronics">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <!-- START: header -->
+  
+  <div class="probootstrap-loader"></div>
+
+  <header role="banner" class="probootstrap-header">
+    <div class="container">
+        <a href="index.html" class="probootstrap-logo" style="width:100px;">
+            <img style="margin-bottom: 10px;" src="img/logo_wo_tech_white.svg" alt="QVEX Tech logo">
+        </a>
+        
+        <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
+        <div class="mobile-menu-overlay"></div>
+
+        <nav role="navigation" class="probootstrap-nav hidden-xs">
+          <ul class="probootstrap-main-nav">
+            <li><a class="btn" onclick="document.getElementById('projects-section').scrollIntoView();">Projects</a></li>
+            <li><a class="btn" onclick="document.getElementById('join-section').scrollIntoView();">Contact</a></li>
+          </ul>
+          <ul class="probootstrap-right-nav hidden-xs">
+            <li><a onclick="showLoader();" href="https://twitter.com/qvex_tech"><i class="icon-twitter"></i></a></li>
+            <li><a onclick="showLoader();" href="https://www.instagram.com/qvex_tech/"><i class="icon-instagram2"></i></a></li>
+            <li><a onclick="showLoader();" href="https://www.lynepad.com"><button type="button" class="btn btn-default"><b>store</b></button></a></li>
+          </ul>
+          <div class="extra-text visible-xs"> 
+            <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+            <a onclick="showLoader();" href="https://www.lynepad.com"><button type="button" class="btn btn-default"><b>store</b></button></a><br><br>
+            <h5>Connect</h5>
+            <ul class="social-buttons">
+              <li><a onclick="showLoader();" href="https://twitter.com/qvex_tech"><i class="icon-twitter"></i></a></li>
+              <li><a onclick="showLoader();" href="https://www.instagram.com/qvex_tech/"><i class="icon-instagram2"></i></a></li>
+            </ul>
+          </div>
+        </nav>
+    </div>
+  </header>
+  <!-- END: header -->
+  <section class="probootstrap-slider flexslider2">
+    <ul class="slides">
+      <li style="background-image: url(img/slider_1.jpg);">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="slides-text probootstrap-animate">
+                <h2>Nextgen, today, together.</h2>
+                <p><a class="shake-top btn btn-default" onclick="document.getElementById('projects-section').scrollIntoView();">Explore</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!-- END: slider  -->
+
+  <section class="probootstrap-section probootstrap-animate">
+    <div class="container text-center">
+      <h4>We are developers, makers, and enthusiats.</h4><p>We use the newest technology to develop nextgen level electronics and gadgets.</p>
+      <p><a onclick="document.getElementById('join-section').scrollIntoView();" class="btn btn-lg">Join us</a></p>
+    </div>
+  </section>
+  <!-- END section -->
+
+
+  <section id="projects-section" class="probootstrap-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 section-heading probootstrap-animate">
+          <h1>Projects</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 probootstrap-animate">
+          <div class="probootstrap-card">
+            <div class="probootstrap-card-media">
+              <a><img src="img/controller.jpg" class="img-responsive img-border" alt="QVEX Controller image"></a>
+            </div>
+            <div class="probootstrap-card-text">
+              <h2 class="probootstrap-card-heading mb0">QVEX Controller</h2>
+              <h5 style="color:orange;">Postponed</h5>
+              <br>
+              <p class="custom-bold-white">The most advanced board for controlling LED strips or standalone LEDs. Developed and perfected for 3 years. <br><br>• Light sensing <br>• WiFi, Bluetooth, 433MHz ASK <br>• 5-36V • 280W <br>• 6 channels</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 probootstrap-animate">
+          <div class="probootstrap-card">
+            <div class="probootstrap-card-media">
+              <a href="https://lynepad.com"><img src="img/lynepad.jpg" class="img-responsive img-border" alt="Lynepad image"></a>
+            </div>
+            <div class="probootstrap-card-text">
+              <h2 class="probootstrap-card-heading mb0">Lynepad</h2>
+              <h5 class="probootstrap-primary-color">Active</h5>
+              <br>
+              <p>Additional, fully programmable keyboard suitable for any kind of design work including photo editing, video editing, PCB design, 3D modeling and so much more. It allows you to press shortcuts or run complex macros using a single key.</p>
+              <p><a onclick="showLoader();" href="https://lynepad.com">View details</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 probootstrap-animate">
+          <div class="probootstrap-card">
+            <div class="probootstrap-card-media">
+              <a><img src="img/shineworks.jpg" class="img-responsive img-border" alt="Shineworks image"></a>
+            </div>
+            <div class="probootstrap-card-text">
+              <h2 class="probootstrap-card-heading mb0">Shineworks</h2>
+              <h5 class="probootstrap-primary-color">Active</h5>
+              <br>
+              <p>Wireless photo/video lights ecosystem. Control the entire scene from a single point. Compatible with the QVEX controller.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END section -->
+
+    <section class="probootstrap-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 section-heading probootstrap-animate">
+          <h1 style="display:none;">Team</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 probootstrap-animate">
+          <div class="probootstrap-card probootstrap-person text-center">
+            <div class="probootstrap-card-media">
+              <img style="border-radius: 0;"src="img/me.jpg" class="img-responsive" alt="Personal photo">
+            </div>
+            <div class="probootstrap-card-text">
+              <h2 class="probootstrap-card-heading mb0">Marek Šefl</h2>
+              <p><small>Electronics, Product design, Graphics</small></p>
+              <p>I built my own laser engraver followed by a 3D printer in a second year of mid-school. I've been working on electronics projects and products ever since. I love the moment of an idea becoming a reality.</p>
+              <ul class="probootstrap-social">
+                <li><a href="https://www.linkedin.com/in/marek-sefl/"><i class="icon-linkedin"></i></a></li>
+                <li><a href="https://github.com/seflm"><i class="icon-github"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END section -->
+  
+  
+  <div class="container" id="join-section">
+    <div class="probootstrap-cta probootstrap-animate border-bototm-none">
+      <h1 class="mb20">Let's develop your idea, together.</h1>
+      <p>Tell us about your exciting project. We got the knowledge, and the resources. Let's work together to bring your idea to life.</p>
+      <h4>Leave us a message at <a class="probootstrap-primary-color" href="mailto: info@qvex.eu">info<!-- >@. -->@<!-- >@. -->qvex<!-- >@. -->.<!-- >@. -->eu</a></h4>
+      <!--<a href="#" class="btn-lg" style="margin-left: -15px;"><b>GET IN TOUCH</b></a>-->
+    </div>
+  </div>
+
+  <!-- END section cta -->
+  
+
+  <footer class="probootstrap-footer probootstrap-bg">
+    <div class="container">
+      <div class="row mb60">
+        <div class="col-md-3">
+          <div class="probootstrap-footer-widget">
+            <h5>Based in<br><br><span style="color:white;">Prague, Czech Republic</span></h5>
+          </div> 
+        </div>
+        <div class="col-md-3">
+          <div class="probootstrap-footer-widget">
+            <h5>Contact us<br><br><a class="probootstrap-primary-color" href="mailto: info@qvex.eu">info<!-- >@. -->@<!-- >@. -->qvex<!-- >@. -->.<!-- >@. -->eu</a></h5>
+          </div> 
+        </div>
+        <div class="col-md-3" style="float:right;">
+          <div class="probootstrap-footer-widget probootstrap-link-wrap">
+            <h4 class="heading">Subscribe</h4>
+            <p class="custom-bold-white">Get the latest updates. Follow us on <a href="https://twitter.com/qvex_tech"><b>Twitter</b></a>, or sing up for a newsletter.</p>
+            <a class="btn" style="margin-left:-10px;" onclick="showLoader();" href="http://eepurl.com/gdS-Lj">Subscribe</a>
+          </div>
+        </div>
+      </div>
+      <div class="row copyright">
+        <div class="col-md-6">
+          <div class="probootstrap-footer-widget">
+            <p>&copy; 2017 <a href="https://uicookies.com/">uiCookies:Black</a>. Designed by <a href="https://uicookies.com/">uicookies.com</a></a></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="probootstrap-footer-widget right">
+            <ul class="probootstrap-right-nav hidden-xs">
+            <li><a onclick="showLoader();" href="https://twitter.com/qvex_tech"><i class="icon-twitter"></i></a></li>
+            <li><a onclick="showLoader();" href="https://www.instagram.com/qvex_tech/"><i class="icon-instagram2"></i></a></li>
+            <li><a onclick="showLoader();" href="https://www.tindie.com/stores/qvex_tech/" class="btn"><b>store</b></a></li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-chevron-thin-up" style="color:black;background-color: white;"></i></a>
+  </div>
+  <script src="js/scripts.min.js"></script>
+  <script src="js/main.min.js"></script>
+  <script src="js/custom.js"></script>
+
+  
+  </body>
+</html>	

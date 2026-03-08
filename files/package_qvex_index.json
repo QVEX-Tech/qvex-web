@@ -1,0 +1,35 @@
+{
+  "packages":
+  [
+    {
+      "name": "qvex",
+      "maintainer": "QVEX Tech",
+      "websiteURL": "https://qvex.eu",
+      "email" : "info@qvex.eu",
+      "platforms":
+      [
+        {
+          "name": "QVEX Tech AVR Boards",
+          "architecture": "avr",
+          "version": "1.0",
+          "category": "Contributed",
+          "url": "https://qvex.eu/files/qvex-avr-1.0.zip",
+          "archiveFileName": "qvex-avr-1.0.zip",
+          "checksum": "SHA-256:90e8c69f4c91c65e341ec1aef0fba5d501861703a2909e126daa84567c470030",
+          "size": "25598",
+          "boards": [
+            {
+              "name": "QVEX Lynepad"
+            }
+          ],
+          "toolsDependencies":
+          [
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
